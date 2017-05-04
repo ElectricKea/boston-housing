@@ -11944,7 +11944,7 @@ Standard deviation of prices: $165,171.13
 <p><strong>Answer: </strong></p>
 <p>I would expect a higher value in RM to cause a high value in MEDV. - More floorspace means more of area to sell.<br>
 A high LSTAT value to cause a drop to the MEDV value. - I think this is because of how the neighbour may been seen or perceieved. If houses look old or the area doesn't seem as upkept as a more expensive area, people would expect to pay less.<br>
-A high PTRATIO would probably cause a rise in the MEDV. - My reasoning is because I think that people will ask around the neighbourhood about schools and if there are many students going to one area it could seem like a good family area.</p>
+A high PTRATIO would probably cause a drop in the MEDV. - This is because when there are a lot of students to a teacher, then the level of learning can drop. If the area has few schools or not enough teachers it can be detrimental to the MEDV</p>
 
 </div>
 </div>
@@ -12076,7 +12076,7 @@ A high PTRATIO would probably cause a rise in the MEDV. - My reasoning is becaus
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p><strong>Answer:</strong></p>
-<p>R^2 = 0.923</p>
+<p>I would say that it has captured the target variable. While the numbers are not exact they are very close. For most cases the predictions are within 0.5. To me, in this case, they are acceptable.</p>
 
 </div>
 </div>
@@ -13789,9 +13789,9 @@ With the maxium depth set to 10, there is a very high training score but a low t
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong></p>
-<p>K-fold cross-validation splits the data into k groups. k-1 is used for training and k is used for testing. This is then repeated for all k sets and the result is averaged.</p>
-<p>Without using cross validation the training set may be prone to high variance.</p>
+<p><strong>Answer: </strong>
+K-fold Cross validation is a technique where all of the data is used for both testing and training. The data is split into k sets and each is tested and trained against each other. Once all are completed the test results are averaged out.</p>
+<p>Without using cross validation the training set may be prone to high variance. Since the data on hand would be divided into 2 parts: testing and training. Since the program gets trained only against the training set. When the new testing set is introduced, the program will test it against the training set. If the testing set is different then high variance errors will occur.</p>
 
 </div>
 </div>
